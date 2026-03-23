@@ -1,0 +1,121 @@
+  @import "tailwindcss";
+
+
+  :root {
+    --text-color: #F9FAFB;
+    --background-color: #060918;
+
+    /* Change only these 2 vars to update button colors site-wide */
+    --primary-btn-bg: #F9FAFB;
+    --primary-btn-text: #18181B;
+
+    /* Existing button vars mapped to primary button theme */
+    --button-bg-color: var(--primary-btn-bg);
+    --button-text-color: var(--primary-btn-text);
+
+    --bt-bg-color: var(--primary-btn-bg);
+    --bt-text-color: var(--primary-btn-text);
+
+    --buttonblack-bg-color: var(--primary-btn-bg);
+    --buttonblack-text-color: var(--primary-btn-text);
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .ml-mr {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+
+  @media (min-width: 375px) {
+    .ml-mr {
+      margin-left: 4%;
+      margin-right: 4%;
+    }
+  }
+
+  /* Aggressive scaling for x-small mobile */
+  @media (max-width: 374px) {
+    section {
+      padding-top: 2rem !important;
+      padding-bottom: 2rem !important;
+    }
+    .space-y-10 > :not([hidden]) ~ :not([hidden]) {
+      --tw-space-y-reverse: 0;
+      margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+      margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .ml-mr {
+      margin-left: 6%;
+      margin-right: 6%;
+    }
+  }
+  
+  @media (min-width: 1536px) {
+    .ml-mr {
+      margin-left: 8%;
+      margin-right: 8%;
+    }
+  }
+
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    overflow-x: hidden;
+
+  }
+
+  #root {
+    overflow-x: hidden;
+  }
+
+  img,
+  video,
+  canvas,
+  svg {
+    max-width: 100%;
+  }
+
+
+  .testimonialSwiper .swiper-slide {
+    transform: scale(0.8);
+    opacity: 0.4;
+    transition: all 0.4s ease;
+  }
+
+  .testimonialSwiper .swiper-slide-active {
+    transform: scale(1);
+    opacity: 1;
+    z-index: 10;
+  }
+
+  .testimonialSwiper .swiper-slide-prev,
+  .testimonialSwiper .swiper-slide-next {
+    transform: scale(0.85);
+    opacity: 0.6;
+  }
+
+  .homepage-compact section {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  @media (min-width: 768px) {
+    .homepage-compact section {
+      padding-top: 3.25rem;
+      padding-bottom: 3.25rem;
+    }
+
+    .ml-mr {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
