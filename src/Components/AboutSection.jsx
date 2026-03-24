@@ -46,7 +46,7 @@ const AboutSection = () => {
                   Industry Excellence
                 </h4>
               </div>
-              <h2 className="text-center lg:text-left lg:text-left text-3xl sm:text-4xl lg:text-4xl xl:text-5xl font-bold leading-[1.15] tracking-tight">
+              <h2 className="text-center lg:text-left text-3xl sm:text-4xl lg:text-4xl xl:text-5xl font-bold leading-[1.15] tracking-tight">
                 Engineering Chemical <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-gray-500">
                   Solutions for Tomorrow.

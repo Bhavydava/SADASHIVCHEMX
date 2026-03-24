@@ -96,7 +96,7 @@ const SustainabilityInfoSection = () => {
               </h2>
             </div>
 
-            <div className="space-y-6 text-gray-400 text-sm md:text-base xl:text-lg lg:text-base leading-relaxed max-w-xl px-4 md:px-0">
+            <div className="space-y-6 text-gray-400 text-center lg:text-left mx-auto lg:mx-0 text-sm md:text-base xl:text-lg lg:text-base leading-relaxed max-w-xl px-4 md:px-0">
               <p>
                 Our sustainability framework is dedicated to reducing the environmental 
                 footprint of chemical manufacturing. We leverage green engineering 
@@ -171,7 +171,7 @@ const SustainabilityInfoSection = () => {
             </span>
           </h2>
           <div className="mt-8 flex flex-col items-center lg:flex-row justify-between gap-6 px-4 md:px-0">
-            <p className="text-gray-400 text-sm md:text-base xl:text-lg max-w-2xl leading-relaxed text-center lg:text-left">
+            <p className="text-gray-400 text-sm md:text-base xl:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed text-center lg:text-left">
               Technical chemical solutions tailored to minimize resource waste and optimize 
               industrial productivity across the global value chain.
             </p>

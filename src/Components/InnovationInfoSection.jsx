@@ -92,7 +92,7 @@ const InnovationInfoSection = () => {
           </div>
 
           <div className="px-4 md:px-0">
-            <h1 className="text-sm md:text-base xl:text-lg mt-7 text-justify lg:text-left text-gray-400 leading-relaxed font-light">
+            <h1 className="text-sm md:text-base xl:text-lg mt-7 text-center lg:text-left text-gray-400 leading-relaxed font-light">
               At Sadashiv Chemical Industries, we specialize in delivering high-purity 
               chemical solutions that exceed international quality benchmarks. Backed 
               by a technical infrastructure, we facilitate seamless 
@@ -100,7 +100,7 @@ const InnovationInfoSection = () => {
               methodologies follow stringent safety protocols, ensuring absolute 
               reliability in chemical handling and industrial distribution.
             </h1>
-            <h1 className="text-base sm:text-lg md:text-xl mt-5 text-justify lg:text-left text-gray-400 leading-relaxed font-light">
+            <h1 className="text-base sm:text-lg md:text-xl mt-5 text-center lg:text-left text-gray-400 leading-relaxed font-light">
               We operate with a focus on technical excellence and cost-effective 
               supply chain efficiency, making international chemical trade both 
               competitive and reliable for our global partners. With specialized 
@@ -123,7 +123,7 @@ const InnovationInfoSection = () => {
                 </h4>
               </div>
               <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
-                <h2 className="text-center lg:text-left lg:text-left lg:text-left text-3xl sm:text-4xl lg:text-4xl xl:text-5xl   font-bold leading-[1.15] tracking-tight">
+                <h2 className="text-center lg:text-left text-3xl sm:text-4xl lg:text-4xl xl:text-5xl   font-bold leading-[1.15] tracking-tight">
                   Engineering Future <br />
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-gray-500">
                     Molecular Solutions.
@@ -178,7 +178,7 @@ const InnovationInfoSection = () => {
               </h2>
             </div>
 
-            <div className="space-y-6 text-gray-400 text-sm md:text-base xl:text-lg leading-relaxed max-w-xl px-4 md:px-0">
+            <div className="space-y-6 text-gray-400 text-sm md:text-base xl:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0 text-center lg:text-left px-4 md:px-0">
               <p>
                 Our innovation center is dedicated to bridging the gap between local production and international demand. We leverage advanced chemical engineering to create products that are both high-performing and sustainable.
               </p>
