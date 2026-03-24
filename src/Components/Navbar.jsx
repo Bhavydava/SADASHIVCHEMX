@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, ChevronDown, ArrowRight } from "lucide-react";
 import Navlogo from "../assets/Nav_Img.png";
 import handleScrollTop from "../allconst/ScrollTop";
-import ProductData from "../allconst/product";
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,14 +17,7 @@ const Navbar = () => {
   const navLinks = [
     { name: "Home", path: "/" },
     { name: "About", path: "/AboutpageLink" },
-    {
-      name: "Products",
-      path: "/SingleProductpageLink?product=1",
-      dropdown: ProductData.map((item) => ({
-        name: item.title,
-        path: `/SingleProductpageLink?product=${item.id}`,
-      })),
-    },
+
     {
       name: "Innovation",
       path: "/InnovationpageLink",
