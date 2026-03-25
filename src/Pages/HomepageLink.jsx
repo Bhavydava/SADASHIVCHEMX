@@ -7,7 +7,7 @@ import ServicesSection from "../Components/ServicesSection";
 import WhychooseSection from "../Components/WhychooseSection";
 import HomeBlogSection from "../Components/HomeBlogSection";
 import ContactSection from "../Components/ContactSection";
-import OurBranding from "../Components/OurBranding";
+// import OurBranding from "../Components/OurBranding";
 import RequestSection from "../Components/RequestSection";
 
 
@@ -20,7 +20,7 @@ const HomepageLink = () => {
       <ProductSection />
       <ServicesSection />
       <WhychooseSection />
-      <OurBranding />
+      {/* <OurBranding /> */}
       <HomeBlogSection />
       <ContactSection />
       <RequestSection />
