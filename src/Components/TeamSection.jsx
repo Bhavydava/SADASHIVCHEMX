@@ -15,11 +15,6 @@ const TeamSection = ({ sectionId }) => {
       role: "Director ",
       image: TeamsImg02,
     },
-    {
-      name: "Shyam Patel",
-      role: "Director",
-      image: TeamsImg03,
-    },
   ];
 
   return (
