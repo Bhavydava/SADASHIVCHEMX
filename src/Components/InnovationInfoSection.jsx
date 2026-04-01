@@ -146,7 +146,7 @@ const InnovationInfoSection = () => {
                 {practice.desc}
               </p>
               <div className="absolute top-6 right-8 opacity-5 group-hover:opacity-10 transition-opacity">
-                <span className="text-4xl md:text-6xl font-black">0{index + 1}</span>
+                <span className="text-6xl md:text-7xl font-black">0{index + 1}</span>
               </div>
             </div>
           ))}
@@ -154,7 +154,7 @@ const InnovationInfoSection = () => {
       </section>
 
       {/* Innovation Hub (Large Feature) */}
-      <section id="innovation-hub" className="ml-mr py-10">
+      <section id="innovation-hub" className="ml-mr py-0">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
           <div className="relative">
             <div className="absolute -inset-4 bg-gradient-to-tr from-[var(--button-bg-color)] to-blue-500 rounded-[60px] blur-2xl opacity-20"></div>

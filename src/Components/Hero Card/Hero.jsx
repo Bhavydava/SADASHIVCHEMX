@@ -10,7 +10,7 @@ const Hero = ({ slides = HomeheroSlides, sectionId }) => {
   const heroSlides = slides;
 
   return (
-    <section id={sectionId} className="ml-mr mt-30 md:mt-35">
+    <section id={sectionId} className="ml-mr mt-30 md:mt-32">
       <div className="flex justify-center">
         <div className="w-full">
           <div className="rounded-[20px] md:rounded-[100px] 2xl:rounded-[120px] shadow-lg h-full overflow-hidden ">

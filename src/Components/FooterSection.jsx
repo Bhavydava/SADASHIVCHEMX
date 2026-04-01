@@ -83,7 +83,7 @@ const FooterSection = () => {
 
         </div>
 
-        <div className="text-white mt-8 md:mt-15 mb-10 md:mb-15 justify-items-start lg:justify-items-end lg:mr-0 pr-0">
+        <div className="text-white mt-1 md:mt-20 lg:mt-24 mb-10 md:mb-15 justify-items-start lg:justify-items-end lg:mr-0 pr-0">
           <div className="text-white grid md:grid-cols-2 grid-cols-1 gap-6 lg:gap-6 lg:justify-items-end w-full lg:max-w-[35rem]">
             <div className="w-full max-w-[20rem] lg:text-center">
               <h1 className="font-bold ext-sm md:text-xl lg:text-lg xl:text-xl transition-transform duration-300 hover:scale-105">Product  and  Services</h1>
@@ -96,7 +96,7 @@ const FooterSection = () => {
               ))}
             </div>
 
-            <div className="lg:text-center lg:w-50 mt-10 md:mt-0 2xl:mt-0 lg:mt-0">
+            <div className="lg:text-center lg:w-50 mt-8 md:mt-0 2xl:mt-0 lg:mt-0">
               <h1 className="font-bold text-sm md:text-xl lg:text-lg xl:text-xl transition-transform duration-300 hover:scale-105">Quick Links</h1>
               <Link to="/" onClick={handleScrollTop}>
                 <h1 className="mt-4 text-[13px] md:text-[16px] lg:text-[15px] xl:text-[18px] transition-all duration-300 hover:translate-x-1 hover:tracking-wide opacity-80">Home</h1>

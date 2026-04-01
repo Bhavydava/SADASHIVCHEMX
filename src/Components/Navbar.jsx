@@ -88,14 +88,14 @@ const Navbar = () => {
 
   return (
     <>
-      {/* Ultra-Premium Floating Navbar - Matched to Reference Image */}
+      {/* Premium Full-Width Navbar */}
       <nav
-        className={`fixed top-6 left-1/2 -translate-x-1/2 w-[95%] min-[375px]:w-[92%] md:w-[90%] xl:w-[88%] 2xl:w-[85%] max-w-[1500px] z-[1000] px-6 md:px-8 py-2.5 transition-all duration-700 rounded-full border border-white/10 group/nav ${scrolled
-          ? "bg-[#0b0c10]/95 backdrop-blur-3xl shadow-[0_30px_70px_-15px_rgba(0,0,0,0.9)] border-white/20"
-          : "bg-[#0b0c10]/70 backdrop-blur-2xl"
+        className={`fixed top-0 left-0 w-full z-[1000] py-4 transition-all duration-500 border-b border-white/5 group/nav ${scrolled
+          ? "bg-[#0b0c10]/90 backdrop-blur-3xl shadow-2xl border-white/10"
+          : "bg-[#0b0c10]/40 backdrop-blur-md border-transparent"
           }`}
       >
-        <div className="flex items-center justify-between w-full">
+        <div className="flex items-center justify-between ml-mr">
           {/* Logo Section */}
           <div className="flex-shrink-0 flex items-center pl-0">
             <Link

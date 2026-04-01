@@ -6,14 +6,14 @@ import handleScrollTop from "../allconst/ScrollTop";
 
 const AboutSection = () => {
   return (
-    <section className="ml-mr py-16 md:py-20 xl:py-24">
+    <section className="ml-mr py-10 md:py-20 xl:py-24">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-12 xl:gap-24 items-center">
         {/* Left Image Section */}
         <div className="flex flex-col items-center lg:items-start justify-center order-1 lg:order-1">
           
           <div className="relative w-full max-w-[540px] lg:max-w-none lg:translate-x-[6%]">
             {/* Main Image Glow */}
-            <div className="absolute -inset-6 bg-gradient-to-tr from-[var(--button-bg-color)] to-blue-500 rounded-[60px] blur-3xl opacity-20 hidden sm:block"></div>
+            <div className="absolute -inset-6 bg-gradient-to-tr from-[var(--button-bg-color)] to-blue-500 rounded-[60px] blur-3xl opacity-20 block"></div>
 
             {/* Main Rounded Image */}
             <div className="rounded-[40px] md:rounded-[80px] lg:rounded-[90px] overflow-hidden h-[300px] sm:h-[450px] md:h-[550px] lg:h-[480px] xl:h-[600px] 2xl:h-[750px] shadow-[0_20px_50px_rgba(0,0,0,0.3)] relative group">
@@ -25,14 +25,14 @@ const AboutSection = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-[#060918]/80 via-transparent to-transparent opacity-60"></div>
             </div>
 
-            {/* Circular Overlapping Image */}
+            {/* Circular Overlapping Image
             <div className="absolute -bottom-8 -left-4 sm:-bottom-12 sm:-left-10 md:-bottom-20 md:-left-16 lg:-bottom-6 lg:-left-10 xl:-bottom-16 xl:-left-16 w-32 h-32 sm:w-52 sm:h-52 md:w-64 md:h-64 lg:w-44 lg:h-44 xl:w-64 xl:h-64 2xl:w-80 2xl:h-80 rounded-full border-8 md:border-[15px] lg:border-[12px] xl:border-[18px] border-[#060918] overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.4)] z-20 bg-[#060918]">
               <img
                 src={AboutImg02}
                 alt="Analytical Services"
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-110"
               />
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -57,12 +57,12 @@ const AboutSection = () => {
 
           <div className="space-y-6 md:space-y-0 text-center lg:text-left">
             <div className="space-y-4 md:space-y-4 text-gray-400 font-light leading-relaxed">
-              <p className="text-base md:text-lg lg:text-base xl:text-xl">
+              <p className="text-sm md:text-base lg:text-sm xl:text-lg">
                 Sadashiv Chemical Industries operates at the intersection of technical innovation
                 and industrial reliability, engineered to deliver high-performance molecular 
                 solutions for the most demanding sector requirements globally.
               </p>
-              <p className="text-base md:text-lg lg:text-base xl:text-xl">
+              <p className="text-sm md:text-base lg:text-sm xl:text-lg">
                 Specializing in high-purity industrial compounds and specialized chemical 
                 formulations, we empower our global partners with products that meet stringent 
                 analytical benchmarks and environmental standards.

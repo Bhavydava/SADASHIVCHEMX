@@ -101,16 +101,16 @@ const ServicesSection = () => {
         ))}
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10 mt-12 md:mt-15 px-2 sm:px-0">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8 mt-10 md:mt-12 px-2 sm:px-0">
         {stats.map((stat, index) => (
           <div
             key={index}
-            className="relative p-8 sm:p-12 md:p-16 rounded-[40px] md:rounded-[50px] bg-[#0d1127]/50 border border-white/5 hover:border-white/10 transition-all duration-700 flex flex-col items-center justify-center group overflow-hidden"
+            className="relative p-6 sm:p-8 md:p-10 rounded-[30px] md:rounded-[40px] bg-[#0d1127]/50 border border-white/5 hover:border-white/10 transition-all duration-700 flex flex-col items-center justify-center group overflow-hidden"
           >
             {/* Background Decoration */}
-            <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-[var(--button-bg-color)] rounded-full opacity-[0.03] group-hover:scale-150 transition-transform duration-1000"></div>
+            <div className="absolute -bottom-8 -right-8 w-32 h-32 bg-[var(--button-bg-color)] rounded-full opacity-[0.03] group-hover:scale-150 transition-transform duration-1000"></div>
 
-            <div className="text-4xl sm:text-5xl md:text-7xl font-black mb-4 flex items-baseline gap-1 group-hover:text-[var(--button-bg-color)] transition-colors duration-500">
+            <div className="text-3xl sm:text-4xl md:text-5xl font-black mb-3 flex items-baseline gap-1 group-hover:text-[var(--button-bg-color)] transition-colors duration-500">
               <CountUp
                 from={0}
                 to={stat.value}
@@ -119,14 +119,14 @@ const ServicesSection = () => {
                 duration={1.5}
                 className="count-up-text"
               />
-              <span className="text-2xl md:text-4xl text-[var(--button-bg-color)]">
+              <span className="text-xl md:text-2xl text-[var(--button-bg-color)]">
                 {stat.suffix}
               </span>
             </div>
 
-            <div className="w-12 h-1 bg-white/10 mb-6 group-hover:w-24 group-hover:bg-[var(--button-bg-color)] transition-all duration-500"></div>
+            <div className="w-10 h-0.5 bg-white/10 mb-4 group-hover:w-20 group-hover:bg-[var(--button-bg-color)] transition-all duration-500"></div>
 
-            <p className="text-sm sm:text-base md:text-lg font-bold uppercase tracking-widest text-gray-500 group-hover:text-white transition-colors duration-500 text-center">
+            <p className="text-[10px] sm:text-xs md:text-sm font-bold uppercase tracking-widest text-gray-500 group-hover:text-white transition-colors duration-500 text-center">
               {stat.label}
             </p>
           </div>
@@ -200,7 +200,7 @@ const ServicesSection = () => {
           <div className="absolute top-0 right-0 p-8 transform translate-x-1/2 -translate-y-1/2 opacity-50 text-white/15">
             <BsGlobeAsiaAustralia className="text-[120px] md:text-[200px]" />
           </div>
-          <p className="text-sm sm:text-lg md:text-xl lg:text-2xl font-medium leading-relaxed z-10 relative text-gray-400">
+          <p className="text-xs sm:text-base md:text-lg lg:text-xl font-medium leading-relaxed z-10 relative text-gray-400">
             "By integrating advanced chemical engineering with stringent ISO-certified quality
             assurance, we deliver technical excellence in every formulation. Sadashiv Chemical 
             is your strategic partner for high-purity industrial solutions sourced 
